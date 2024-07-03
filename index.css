@@ -1,0 +1,107 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    background-color: #333;
+    color: white;
+    padding: 1em;
+    text-align: left;
+}
+
+.navbar button {
+    background-color: #f44336;
+    border: none;
+    color: white;
+    padding: 0.5em 1em;
+    cursor: pointer;
+}
+
+.navbar button:hover {
+    background-color: black;
+}
+
+.filter-buttons {
+    margin-top: 2em;
+    text-align: center;
+}
+
+.filter-buttons button {
+    margin: 0.5em;
+    padding: 0.5em 1em;
+    background-color: blue;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.filter-buttons button.selected {
+    background-color: gray;
+}
+
+.container {
+    width: 100%;
+    margin: 2em auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.timer {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1em;
+}
+
+.time {
+    position: absolute;
+    font-size: 2em;
+}
+
+.timer-ring {
+    position: relative;
+}
+
+.question-title {
+    font-size: 40px;
+    margin-bottom: 1em;
+    font-weight: bolder;
+}
+
+.options-list {
+    list-style: none;
+    font-size: larger;
+    padding: 0;
+    margin-bottom: 1em;
+}
+
+.options-list li {
+    margin: 0.5em 0;
+    padding: 0.5em;
+    cursor: pointer;
+}
+
+.result-card {
+    display: none;
+    border: 1px solid black;
+    padding: 2em;
+    text-align: center;
+}
+
+.result-card button {
+    background-color: blue;
+    color: white;
+    border: none;
+    padding: 0.5em 1em;
+    cursor: pointer;
+}
+
+.correct {
+    color: green;
+}
+
+.incorrect {
+    color: red;
+}
